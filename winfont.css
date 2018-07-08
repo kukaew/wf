@@ -1,0 +1,19 @@
+body {background: #f6f6f6}
+.win {
+	font: bold 100px/1.5rem Cambria, serif;
+	display: inline-block;
+	line-height: .6em;
+	color: #fff;
+	text-shadow: 1px 1px #000,-1px -1px #000,-1px 1px #000,1px -1px #000,
+	 0 1px #000,1px 0 #000,-1px 0 #000,0 -1px #000;
+	 letter-spacing: -0.1em;
+}
+#winfont {
+	background: #eee;
+	text-align: center;
+	box-shadow: 0 0 0 1px #333, 0 0 0 15px #fff, 0 0 0 16px #333;
+	margin: 5vh auto;
+	padding: .25rem 0;
+}
+::selection{color: inherit;background: hsla(0,0%,0%,.15);}
+::-moz-selection{color:inherit;background:hsla(0,0%,0%,.15)}
